@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.example.andriginting.fragmentpapb.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<EditText
+    android:id="@+id/edt_text_nama"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Masukkan Nama Anda"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_text_nomorhp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nomor Hp Anda"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#009688"
+        android:textColor="@android:color/white"
+        android:text="Kirim Data Ke Fragment 2"
+        />
+</LinearLayout>
